@@ -11,6 +11,8 @@
 		E4CB61282AEFF46B00B93FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB61272AEFF46B00B93FBE /* ContentView.swift */; };
 		E4CB612A2AEFF46E00B93FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CB61292AEFF46E00B93FBE /* Assets.xcassets */; };
 		E4CB612D2AEFF46E00B93FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CB612C2AEFF46E00B93FBE /* Preview Assets.xcassets */; };
+		E4CB61362AEFF4B700B93FBE /* ObjectDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB61352AEFF4B700B93FBE /* ObjectDetector.swift */; };
+		E4CB613A2AF0F88B00B93FBE /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E4CB61392AF0F88B00B93FBE /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E4CB61272AEFF46B00B93FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4CB61292AEFF46E00B93FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4CB612C2AEFF46E00B93FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4CB61352AEFF4B700B93FBE /* ObjectDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetector.swift; sourceTree = "<group>"; };
+		E4CB61392AF0F88B00B93FBE /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				E4CB61252AEFF46B00B93FBE /* Task4App.swift */,
+				E4CB61392AF0F88B00B93FBE /* SqueezeNet.mlmodel */,
 				E4CB61272AEFF46B00B93FBE /* ContentView.swift */,
+				E4CB61352AEFF4B700B93FBE /* ObjectDetector.swift */,
 				E4CB61292AEFF46E00B93FBE /* Assets.xcassets */,
 				E4CB612B2AEFF46E00B93FBE /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CB61362AEFF4B700B93FBE /* ObjectDetector.swift in Sources */,
 				E4CB61282AEFF46B00B93FBE /* ContentView.swift in Sources */,
 				E4CB61262AEFF46B00B93FBE /* Task4App.swift in Sources */,
+				E4CB613A2AF0F88B00B93FBE /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
